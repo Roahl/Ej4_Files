@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Ej4_Files
 {
-    public partial class Form1 : Form
+    public partial class Ej4_Files_Form : Form
     {
-        public Form1()
+        public Ej4_Files_Form()
         {
             InitializeComponent();
+        }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
