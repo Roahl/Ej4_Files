@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
+using System.Threading;
 
 namespace Ej4_Files
 {
@@ -26,9 +28,7 @@ namespace Ej4_Files
 
         private void LeaveContextMenu(object sender, EventArgs e)
         {
-            toolStripStatusLabel1.Text = "";
-            ContextMenuStrip c;
-            
+            toolStripStatusLabel1.Text = "";         
         }
 
 
@@ -41,6 +41,24 @@ namespace Ej4_Files
                     contextMenu.Show(Cursor.Position);
                 }
             }
+        }
+
+        private void spanish(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-ES");
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("es-ES");
+            Controls.Clear();
+            InitializeComponent();
+
+        }
+
+        private void english(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+            Controls.Clear();
+            InitializeComponent();
+
         }
     }
 }
