@@ -22,14 +22,14 @@ namespace Ej4_Files.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class traductor_galego {
+    internal class Traductor_Ingles {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal traductor_galego() {
+        internal Traductor_Ingles() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Ej4_Files.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Ej4_Files.Resources.traductor_galego", typeof(traductor_galego).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Ej4_Files.Resources.Traductor_Ingles", typeof(Traductor_Ingles).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace Ej4_Files.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &amp;Editar.
+        ///   Looks up a localized string similar to &amp;Edit.
         /// </summary>
         internal static string ctsmiEdit {
             get {
@@ -70,7 +70,7 @@ namespace Ej4_Files.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &amp;Abrir.
+        ///   Looks up a localized string similar to &amp;Open.
         /// </summary>
         internal static string ctsmiOpen {
             get {
@@ -79,7 +79,7 @@ namespace Ej4_Files.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Abrir &amp;con.
+        ///   Looks up a localized string similar to Open &amp;With.
         /// </summary>
         internal static string ctsmiOpenW {
             get {
@@ -106,7 +106,7 @@ namespace Ej4_Files.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &amp;Favoritos.
+        ///   Looks up a localized string similar to &amp;Favorites.
         /// </summary>
         internal static string tsmiFav {
             get {
@@ -115,7 +115,7 @@ namespace Ej4_Files.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &amp;Archivo.
+        ///   Looks up a localized string similar to &amp;File.
         /// </summary>
         internal static string tsmiFile {
             get {
@@ -124,7 +124,7 @@ namespace Ej4_Files.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A&amp;yuda.
+        ///   Looks up a localized string similar to &amp;Help.
         /// </summary>
         internal static string tsmiHelp {
             get {
@@ -133,7 +133,7 @@ namespace Ej4_Files.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &amp;Idioma.
+        ///   Looks up a localized string similar to &amp;Language.
         /// </summary>
         internal static string tsmiLang {
             get {
@@ -142,7 +142,7 @@ namespace Ej4_Files.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &amp;Herramientas.
+        ///   Looks up a localized string similar to &amp;Tools.
         /// </summary>
         internal static string tsmiTools {
             get {
@@ -151,7 +151,7 @@ namespace Ej4_Files.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &amp;Vista.
+        ///   Looks up a localized string similar to &amp;View.
         /// </summary>
         internal static string tsmiView {
             get {

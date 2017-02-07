@@ -59,6 +59,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>traductor_galego.resx</DependentUpon>
     </Compile>
+    <Compile Include="Resources\Traductor_Ingles.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Traductor_Ingles.resx</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Ej4_Files_Form.resx">
       <DependentUpon>Ej4_Files_Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -75,6 +80,10 @@
     <EmbeddedResource Include="Resources\traductor_galego.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>traductor_galego.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Traductor_Ingles.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Traductor_Ingles.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

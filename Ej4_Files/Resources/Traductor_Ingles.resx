@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ctsmiEdit" xml:space="preserve">
-    <value>&amp;Editar</value>
+    <value>&amp;Edit</value>
   </data>
   <data name="ctsmiOpen" xml:space="preserve">
-    <value>&amp;Abrir</value>
+    <value>&amp;Open</value>
   </data>
   <data name="ctsmiOpenW" xml:space="preserve">
-    <value>Abrir &amp;con</value>
+    <value>Open &amp;With</value>
   </data>
   <data name="ctsmiPin" xml:space="preserve">
     <value>&amp;Pin</value>
@@ -133,21 +133,21 @@
     <value>&amp;Editar</value>
   </data>
   <data name="tsmiFav" xml:space="preserve">
-    <value>&amp;Favoritos</value>
+    <value>&amp;Favorites</value>
   </data>
   <data name="tsmiFile" xml:space="preserve">
-    <value>&amp;Archivo</value>
+    <value>&amp;File</value>
   </data>
   <data name="tsmiHelp" xml:space="preserve">
-    <value>A&amp;yuda</value>
+    <value>&amp;Help</value>
   </data>
   <data name="tsmiLang" xml:space="preserve">
-    <value>&amp;Idioma</value>
+    <value>&amp;Language</value>
   </data>
   <data name="tsmiTools" xml:space="preserve">
-    <value>&amp;Herramientas</value>
+    <value>&amp;Tools</value>
   </data>
   <data name="tsmiView" xml:space="preserve">
-    <value>&amp;Vista</value>
+    <value>&amp;View</value>
   </data>
 </root>
