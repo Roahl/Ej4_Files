@@ -30,27 +30,7 @@ namespace Ej4_Files
             ContextMenuStrip c;
             
         }
-        
-        private void ChangeLanguage(object sender, EventArgs e)
-        {
-            System.Resources.ResourceManager rm = new System.Resources.ResourceManager("Ej4_Files.Resources.traductor_galego", typeof(Ej4_Files_Form).Assembly);
-            ChangeLanguage(this, rm);    
-        }
 
-        private void ChangeLanguage(Object o, System.Resources.ResourceManager rm)
-        {   
-            if(o.GetType() == typeof(Ej4_Files_Form))
-            {
-                foreach (Control c in ((Ej4_Files_Form)o).Controls)
-                {
-                    if (c.GetType() == typeof(SplitContainer))
-                        ChangeLanguage(c, rm);
-                    else if (c.GetType() == typeof(Label))
-                        c.Text = rm.GetString(c.Name);
-                }
-            }          
-
-        }
 
         private void listView1_MouseClick(object sender, MouseEventArgs e)
         {
